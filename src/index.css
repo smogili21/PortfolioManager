@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+html,
+body,
+#root,
+.app{
+  display:flex;
+  position:relative;
+  font-family: 'Source Sans Pro',sans-serif;
+}
+.content{
+  height:100%;
+  width:100%;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+/* Track*/
+::-webkit-scrollbar-track{
+  background:#e0e0e0;
+
+}
+
+/* Handle*/
+::-webkit-scrollbar-thumb{
+  background:#888;
+}
+
+/*Handle over Hover*/
+::-webkit-scrollbar-track:hover{
+  background:#555;
+
+}
+
+/*Main heading margin values*/
+.main-text{
+  margin-left: 50%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto; /* Center the container */
+}
